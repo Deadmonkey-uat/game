@@ -1,0 +1,63 @@
+/* 
+declaration block:
+
+selector{
+    property: value;
+    property2: value; 
+}
+*/
+body{
+    /* I changed the font and the size here 14mar26 */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkorange;
+    font-size: 20px;
+    color: blueviolet;
+    /* I added color gradient 14mar26
+    The gradiant was bugged.  A link popped up on the left in the margins, i clicked it and the system fixed it.  If that is not allowed, please let me know and
+    I will remove it. */
+    background-image: linear-gradient(to bottom, darkorange, green), url(DnAsLogo.jpg);
+    background-position: auto, bottom center;   
+    background-size: 50%, 300%;
+    background-attachment: scroll, scroll ;
+    min-height: 100vh;
+    /* I am attempting to add a background image of my logo.  I am having issues and am working on it page 350 of the manual:( */
+
+}
+img{
+    /* moved this image to the center of the screen 5apr26 */
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}  
+
+button{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav{
+    height: 600px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+}
+
+footer{
+    text-align: center;
+    margin-right: 200px;
+}
+
+#memeImage {
+    margin-right: 200px;
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+}
