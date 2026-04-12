@@ -1,0 +1,25 @@
+<!-- Declares the document type as HTML5 -->
+<!DOCTYPE HTML>
+<head>
+    <!-- Sets the title that appears in the browser tab -->
+    <title>Coin Flip</title>
+    <!-- Links to the external JavaScript file where game logic lives -->
+    <script src="gamev2js.js"></script>
+    <style>
+        body { background-color: #1b4b29; color: #ffd700; font-family: sans-serif; text-align: center; padding-top: 50px; }
+        button { background-color: #ffd700; border: none; padding: 15px 30px; font-size: 20px; cursor: pointer; border-radius: 5px; }
+        #game-output { margin-top: 20px; font-size: 24px; }
+    </style>
+</head>
+<body>
+    <!-- The main heading for the Casino -->
+    <h1>D's Casino</h1>
+    <p>Risk your Pennies!</p>
+    
+    <!-- Button that triggers the playGame() function in code.js when clicked -->
+    <button onclick="playGame()">Flip the Coin!</button>
+    
+    <!-- Empty div where JavaScript will display the results using .innerHTML -->
+    <div id="game-output"></div>
+</body>
+</html>
